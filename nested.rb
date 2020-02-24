@@ -37,6 +37,7 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
+    if !programmer_hash[:yukihiro_matsumoto]
      programmer_hash[:yukihiro_matsumoto] = {}
 		 programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
 		 programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
